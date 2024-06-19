@@ -440,12 +440,24 @@ span {
         grid-template-columns: 1fr;
     }
     .slogan  h1{
-        font-size: 27px;
+        font-size: 20px;
         padding: 20px;
         line-height: 27px;
         text-align: center;
+        
       }
       
+    .slides h1 {
+           font-size: 16px;
+           line-height: 40px;
+
+    }
+
+    .slides p {
+        font-size: 12px;
+    }
+
+
       
       
       .slogan p {
