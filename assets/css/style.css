@@ -377,7 +377,7 @@ span {
 
 
 .afiliado-img img {
-    width: 300px;
+    width: 350px;
     margin-left: 120px;
     
 }
@@ -432,6 +432,40 @@ span {
     padding: 0 16px 16px;
     color: #666;
     font-size: 0.9em;
+}
+
+
+.emagrecimento--area {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.img--1 img {
+    flex: 1;
+  width: 400px;
+   border-radius: 20px;
+}
+
+.conteudo {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.conteudo h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.conteudo p {
+    font-weight: bold;
+}
+
+.img--3 img {
+    flex: 1;
+    width: 400px;
+    border-radius: 20px;
 }
 
 @media (min-width:451px) and (max-width: 800px) {
@@ -629,6 +663,38 @@ span {
     font-size: 30px;
     line-height: 30px;
 }
+
+.emagrecimento--area {
+    flex-direction: column;
+    margin-top: 10px;
+    flex-direction: column-reverse;
+    
+}
+
+.img--3 img {
+    flex: 1;
+    width: 350px;
+    border-radius: 20px;
+    padding-left: 13px;
+    
+}
+
+.img--1 img {
+    flex: 1;
+    width: 350px;
+    border-radius: 20px;
+    padding-left: 13px;
+    
+    
+}
+.img--3 {
+    margin: auto;
+}
+
+.img--1 {
+    margin: auto;
+}
+
     
     
 }
@@ -845,6 +911,41 @@ span {
     }
     .title--afiliado h2 {
         font-size: 13px;
+    }
+
+    .emagrecimento--area {
+        flex-direction: column;
+        margin-top: 10px;
+        flex-direction: column-reverse;
+        
+    }
+
+    .img--3 img {
+       
+        width: 350px;
+        border-radius: 20px;
+                
+        
+    }
+    .conteudo {
+        margin-bottom: 10px;
+    }
+
+    .img--3 {
+        margin: auto;
+    }
+
+    .img--1 {
+        margin: auto;
+    }
+    
+    .img--1 img {
+    
+        width: 350px;
+        border-radius: 20px;
+    
+        
+        
     }
       
       
