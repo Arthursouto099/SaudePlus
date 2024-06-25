@@ -950,7 +950,8 @@ span {
     }
     
     .afiliado-img img {
-       width: 250px;
+       
+       width: 320px;
     }
 
 
@@ -1045,5 +1046,8 @@ span {
         display: block;
     }
       
+  .pote img {
+    width: 350px;
+  }
       
 }
